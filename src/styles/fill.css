@@ -1,0 +1,38 @@
+.fill-effect {
+  position: relative;
+  overflow: hidden;
+  background: transparent;
+}
+
+.fill-effect::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background: #E55D87;  
+  background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  
+  background: linear-gradient(to right, #5FC3E4, #E55D87); 
+  
+
+  
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  animation: fillAnimation 3s ease forwards;
+  z-index: 0;
+}
+
+.fill-effect p {
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes fillAnimation {
+  from {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  to {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
