@@ -2,18 +2,18 @@ import React, { useState, useEffect } from "react";
 import Earth from "./components/Earth.jsx";
 import Navlist from "./components/Navlist.jsx";
 import Display from "./components/Display.jsx";
-import Loader from "./components/Loader.jsx"; // Import the Loader component
+import Loader from "./components/Loader.jsx"; 
 
 function App() {
   const [hover, setHover] = useState(false);
   const [name, setName] = useState("");
-  const [loading, setLoading] = useState(true); // Add a loading state
+  const [loading, setLoading] = useState(true); 
 
   useEffect(() => {
     
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 2500); 
+    }, 3000); 
 
     return () => clearTimeout(timer); 
   }, []);
