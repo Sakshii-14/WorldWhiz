@@ -7,7 +7,7 @@ function Navlist({ onenter, onleave }) {
     <div className=" w-auto flex flex-col lg:gap-[10rem] md:gap-[6rem] sm:gap-[4rem] gap-[2rem] justify-between h-auto">
       <a href='https://country-rank-cxtx51vv6-sakshi-kesharwanis-projects.vercel.app' target="_blank" rel="noopener noreferrer">
       <button
-        className="button h-auto w-full lg:text-[2rem] md:text-[1.5rem] sm:text-[1.8rem] text-[1.5rem] "
+        className="button h-auto w-full lg:text-[1.8rem] md:text-[1.5rem] sm:text-[1.8rem] text-[1.5rem] "
         onMouseEnter={(e) => onenter("rank")}
         onMouseLeave={() => onleave()}
         name="rank"
