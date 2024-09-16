@@ -5,7 +5,7 @@ import "../styles/button.css";
 function Navlist({ onenter, onleave }) {
   return (
     <div className=" w-auto flex flex-col lg:gap-[10rem] md:gap-[6rem] sm:gap-[4rem] gap-[2rem] justify-between h-auto">
-      <a href='https://country-rank-bciekno3f-sakshi-kesharwanis-projects.vercel.app' target="_blank" rel="noopener noreferrer">
+      <a href='https://country-rank-cxtx51vv6-sakshi-kesharwanis-projects.vercel.app' target="_blank" rel="noopener noreferrer">
       <button
         className="button h-auto w-full lg:text-[2rem] md:text-[1.5rem] sm:text-[1.8rem] text-[1.5rem] "
         onMouseEnter={(e) => onenter("rank")}
@@ -23,7 +23,7 @@ function Navlist({ onenter, onleave }) {
       </button>
       </a>
    
-     <a href='https://country-quiz-adfvm1hg0-sakshi-kesharwanis-projects.vercel.app' target="_blank" rel="noopener noreferrer" >
+     <a href='https://country-quiz-lxm6nqmz4-sakshi-kesharwanis-projects.vercel.app' target="_blank" rel="noopener noreferrer" >
       <button
         className="button2 h-auto w-full  lg:text-[2rem] md:text-[1.5rem] sm:text-[1.8rem] text-[1.5rem]   "
         onMouseEnter={(e) => onenter("quiz")}
@@ -41,7 +41,7 @@ function Navlist({ onenter, onleave }) {
       </button>
      </a>
 
-     <a href='https://translate-mogqyrrk9-sakshi-kesharwanis-projects.vercel.app' target="_blank" rel="noopener noreferrer">
+     <a href='https://translate-l6firpjsl-sakshi-kesharwanis-projects.vercel.app' target="_blank" rel="noopener noreferrer">
       <button
         className="button3 h-auto w-full lg:text-[2rem] md:text-[1.5rem] sm:text-[1.8rem] text-[1.5rem] "
         onMouseEnter={(e) => onenter("translate")}
