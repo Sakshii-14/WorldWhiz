@@ -26,7 +26,7 @@
 How to Use :
 Country Info: Browse or search for a country and view detailed data.
 Translate App: Enter text, select the target language, and get the translation instantly.
-Quiz App: Take quizzes to challenge your knowledge about countries and cultures.
+Quiz App: Take quizzes to challenge your knowledge about countries.
 
 Contributing :
 Feel free to fork the repository and submit pull requests for improvements or new features.
