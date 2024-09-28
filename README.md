@@ -18,7 +18,7 @@
    Github Link - https://github.com/Sakshii-14/Country-Quiz
 ## Technologies Used
 
-- **Frontend**: React.js, JavaScript, Tailwind CSS
+- **Frontend**: React.js , Tailwind CSS
 - **API Integration**: Fetching country data, translation services via APIs
 - **State Management**: Redux Toolkit
 - **Deployment**: Vercel
